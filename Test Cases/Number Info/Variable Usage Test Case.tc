@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Variable Usage Test Case</description>
+   <name>Variable Usage Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2e776d7-036c-472d-bf46-d506c4ffdf82</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.fromNumberToWords</defaultValue>
+      <description></description>
+      <id>d06d86ed-f8a5-4e60-b103-945e0131f3de</id>
+      <masked>false</masked>
+      <name>transposeNumToWords</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.fromNumberToDollars</defaultValue>
+      <description></description>
+      <id>c62c80de-19d6-4e0e-a0a7-6d7b695a1589</id>
+      <masked>false</masked>
+      <name>transposeNumToDollars</name>
+   </variable>
+</TestCaseEntity>
