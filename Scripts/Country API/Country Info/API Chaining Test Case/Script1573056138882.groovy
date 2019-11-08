@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 println (GlobalVariable.Country_Name)
 
-isocodeListResponse = WS.sendRequest(findTestObject('Country Info/ISOCodes List'))
+isocodeListResponse = WS.sendRequest(findTestObject('Country API/Country Info/ISOCodes List'))
 
 String xmlResponseForCodesList = isocodeListResponse.responseBodyContent
 
@@ -28,7 +28,7 @@ println (country_isoCode)
 //println (isocodevalueExtracted)
 
 
-isocodeResponse = WS.sendRequest(findTestObject('Country Info/Country ISOCode'))
+isocodeResponse = WS.sendRequest(findTestObject('Country API/Country Info/Country ISOCode'))
 
 String xmlResponseForISOCode = isocodeResponse.responseBodyContent
 
@@ -42,7 +42,7 @@ GlobalVariable.Country_ISOCode = isocodeExtracted
 
 
 
-nameResponse = WS.sendRequest(findTestObject('Country Info/Country Name', [('country_code') : GlobalVariable.Country_ISOCode]))
+nameResponse = WS.sendRequest(findTestObject('Country API/Country Info/Country Name', [('country_code') : GlobalVariable.Country_ISOCode]))
 
 String xmlResponseForName = nameResponse.responseBodyContent
 

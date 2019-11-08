@@ -24,4 +24,9 @@
       <initValue>'United States'</initValue>
       <name>Country_Name</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ben'</initValue>
+      <name>countryLanguageISOCOde</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
-   <description>Countries List SOAP Request</description>
-   <name>Countries List</name>
+   <description>List Of Languages Service</description>
+   <name>List Of Language Codes</name>
    <tag></tag>
-   <elementGuidId>db3796de-28e7-400e-8386-5f9c04acb337</elementGuidId>
+   <elementGuidId>15261250-aaef-48f0-b2e8-8d3c79d48f0e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
@@ -15,12 +15,12 @@
    <serviceType>SOAP</serviceType>
    <soapBody>&lt;Envelope xmlns=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;>
     &lt;Body>
-        &lt;ListOfCountryNamesByName xmlns=&quot;http://www.oorsprong.org/websamples.countryinfo&quot;/>
+        &lt;ListOfLanguagesByCode xmlns=&quot;http://www.oorsprong.org/websamples.countryinfo&quot;/>
     &lt;/Body>
 &lt;/Envelope></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod>SOAP</soapRequestMethod>
-   <soapServiceFunction>ListOfCountryNamesByName</soapServiceFunction>
+   <soapServiceFunction>ListOfLanguagesByCode</soapServiceFunction>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -35,7 +35,6 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-WS.verifyElementText(response, 'ListOfCountryNamesByNameResponse.ListOfCountryNamesByNameResult.tCountryCodeAndName[22].sISOCode', 'Bangladesh')
-//WS.verifyElementText(response, 'ListOfCountryNamesByNameResponse.ListOfCountryNamesByNameResult.tCountryCodeAndName[22].sISOCode', 'Bangladesh')</verificationScript>
+WS.verifyElementText(response, 'ListOfLanguagesByCodeResponse.ListOfLanguagesByCodeResult.tLanguage[39].sISOCode', 'ben')</verificationScript>
    <wsdlAddress>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</wsdlAddress>
 </WebServiceRequestEntity>

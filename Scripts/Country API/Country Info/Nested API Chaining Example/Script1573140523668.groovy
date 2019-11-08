@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-codeList = WS.sendRequest(findTestObject('Country Info/ISOCodes List'))
+codeList = WS.sendRequest(findTestObject('Country API/Country Info/ISOCodes List'))
 
 println(GlobalVariable.Country_ISOCode)
 
@@ -27,7 +27,7 @@ println(extractedCode)
 
 GlobalVariable.Country_ISOCode = extractedCode
 
-countryName = WS.sendRequest(findTestObject('Country Info/Country Name', [('country_code') : GlobalVariable.Country_ISOCode]))
+countryName = WS.sendRequest(findTestObject('Country API/Country Info/Country Name', [('country_code') : GlobalVariable.Country_ISOCode]))
 
 String xmlResponseForName = countryName.responseBodyContent
 
@@ -37,7 +37,7 @@ println(nameExtracted)
 
 println(GlobalVariable.Country_Name)
 
-countryCode = WS.sendRequest(findTestObject('Country Info/Country ISOCode', [('countryName') : nameExtracted]))
+countryCode = WS.sendRequest(findTestObject('Country API/Country Info/Country ISOCode', [('countryName') : nameExtracted]))
 
 String xmlResponseForCountry = countryCode.responseBodyContent
 
@@ -49,7 +49,7 @@ GlobalVariable.Country_Name = nameExtracted
 
 println(GlobalVariable.Country_Name)
 
-countriesList = WS.sendRequest(findTestObject('Country Info/Countries List'))
+countriesList = WS.sendRequest(findTestObject('Country API/Country Info/Countries List'))
 
 String xmlResponseForCNames = countriesList.responseBodyContent
 
@@ -63,5 +63,5 @@ def codeCheck = cnamesList.ListOfCountryNamesByNameResult.tCountryCodeAndName[18
 
 println('Code Check : ' + codeCheck)
 
-WS.sendRequestAndVerify(findTestObject('Country Info/Country ISOCode', [('countryName') : nameCheck]))
+WS.sendRequestAndVerify(findTestObject('Country API/Country Info/Country ISOCode', [('countryName') : nameCheck]))
 
