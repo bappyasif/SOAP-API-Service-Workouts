@@ -35,6 +35,9 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-WS.verifyElementText(response, 'ListOfLanguagesByCodeResponse.ListOfLanguagesByCodeResult.tLanguage[39].sISOCode', 'ben')</verificationScript>
+WS.verifyElementText(response, 'ListOfLanguagesByCodeResponse.ListOfLanguagesByCodeResult.tLanguage[39].sISOCode', 'ben')
+//WS.verifyElementText(response, 'ListOfLanguagesByCodeResponse.ListOfLanguagesByCodeResult.tLanguage[47].sISOCode', 'ben')
+
+//WS.verifyElementText(response, 'ListOfLanguagesByCodeResponse.ListOfLanguagesByCodeResult.tLanguage[47]', 'ben')</verificationScript>
    <wsdlAddress>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</wsdlAddress>
 </WebServiceRequestEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Multiple API Request Chaining</description>
+   <name>Multiple API Request Chaining</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7fe1771f-b835-4afd-bdb6-201713128d4a</testCaseGuid>
+   <variable>
+      <defaultValue>'bem'</defaultValue>
+      <description></description>
+      <id>c72b8633-e207-420f-96b9-1c6ddf5b7ff7</id>
+      <masked>false</masked>
+      <name>languageCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bemba'</defaultValue>
+      <description></description>
+      <id>c6bc63c7-ef45-44f9-9a75-da1986211527</id>
+      <masked>false</masked>
+      <name>lanaguageName</name>
+   </variable>
+</TestCaseEntity>

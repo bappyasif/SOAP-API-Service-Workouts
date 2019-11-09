@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="SOAP API Test Suite" time="21" tests="3" failures="0" errors="0">
+    <testsuite name="SOAP API Test Suite" tests="3" failures="0" errors="0" time="21" timestamp="2019-11-09 22:18:52" hostname="BaPpY - 192.168.0.108" id="Test Suites/Data Driven/SOAP API Test Suite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="G:\\Katalon Studio\\Katalon Workspace\\SOAP API Service Workouts\\Reports\\20191109_221849\\Data Driven\\SOAP API Test Suite\\20191109_221849"/>
+            <property name="logFiles" value="G:\\Katalon Studio\\Katalon Workspace\\SOAP API Service Workouts\\Reports\\20191109_221849\\Data Driven\\SOAP API Test Suite\\20191109_221849\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="BaPpY - 192.168.0.108"/>
+            <property name="hostAddress" value="192.168.0.108"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/Data Driven/Country Info API Services" classname="Test Cases/Data Driven/Country Info API Services" status="PASSED">
+            <system-out>2019-11-09 22:18:53 - [TEST_CASE][PASSED] - Test Cases/Data Driven/Country Info API Services: Test Cases/Data Driven/Country Info API Services&#xD;
+&#xD;
+2019-11-09 22:18:53 - [TEST_STEP][PASSED] - flagResponse = sendRequest(findTestObject("Country API/More Services/Country Flag - Data Driven", ["countryISO":countryISO])): Send request successfully&#xD;
+&#xD;
+2019-11-09 22:18:55 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\0.har&#xD;
+&#xD;
+2019-11-09 22:18:55 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-09 22:18:55 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Country API/More Services/Country Flag - Data Driven")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:18:57 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\1.har&#xD;
+&#xD;
+2019-11-09 22:18:57 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-11-09 22:18:58 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-11-09 22:18:58 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-11-09 22:18:58 - [TEST_STEP][PASSED] - verifyElementText(response, "CountryFlagResponse.CountryFlagResult", "http://www.oorsprong.org/WebSamples.CountryInfo/Flags/Bangladesh.jpg"): Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:18:58 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:18:58 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-11-09 22:18:58 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:18:58 - [TEST_STEP][PASSED] - codeResponse = sendRequest(findTestObject("Country API/More Services/Language Code", ["languageName":languageName])): Send request successfully&#xD;
+&#xD;
+2019-11-09 22:18:59 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\2.har&#xD;
+&#xD;
+2019-11-09 22:18:59 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-09 22:18:59 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Country API/More Services/Language Code", ["languageName":"Bengali"])): Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:00 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\3.har&#xD;
+&#xD;
+2019-11-09 22:19:00 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-11-09 22:19:00 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-11-09 22:19:00 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-11-09 22:19:00 - [TEST_STEP][PASSED] - verifyElementText(response, "LanguageISOCodeResponse.LanguageISOCodeResult", "ben"): Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:00 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:00 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-11-09 22:19:00 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:00 - [TEST_STEP][PASSED] - nameResponse = sendRequest(findTestObject("Country API/More Services/Language Name", ["languageCode":languageCode])): Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:01 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\4.har&#xD;
+&#xD;
+2019-11-09 22:19:01 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:01 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Country API/More Services/Language Name", ["languageISO":"eng"])): Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:02 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\5.har&#xD;
+&#xD;
+2019-11-09 22:19:02 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-11-09 22:19:02 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-11-09 22:19:02 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-11-09 22:19:02 - [TEST_STEP][PASSED] - verifyElementText(response, "LanguageNameResponse.LanguageNameResult", "English"): Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:02 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:02 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-11-09 22:19:02 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Data Driven/Country Info API Services" classname="Test Cases/Data Driven/Country Info API Services" status="PASSED">
+            <system-out>2019-11-09 22:19:02 - [TEST_CASE][PASSED] - Test Cases/Data Driven/Country Info API Services: Test Cases/Data Driven/Country Info API Services&#xD;
+&#xD;
+2019-11-09 22:19:02 - [TEST_STEP][PASSED] - flagResponse = sendRequest(findTestObject("Country API/More Services/Country Flag - Data Driven", ["countryISO":countryISO])): Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:03 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\6.har&#xD;
+&#xD;
+2019-11-09 22:19:03 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:03 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Country API/More Services/Country Flag - Data Driven")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:04 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\7.har&#xD;
+&#xD;
+2019-11-09 22:19:04 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-11-09 22:19:04 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-11-09 22:19:04 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-11-09 22:19:04 - [TEST_STEP][PASSED] - verifyElementText(response, "CountryFlagResponse.CountryFlagResult", "http://www.oorsprong.org/WebSamples.CountryInfo/Flags/Bangladesh.jpg"): Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:04 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:04 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-11-09 22:19:04 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:04 - [TEST_STEP][PASSED] - codeResponse = sendRequest(findTestObject("Country API/More Services/Language Code", ["languageName":languageName])): Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:05 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\8.har&#xD;
+&#xD;
+2019-11-09 22:19:05 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:05 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Country API/More Services/Language Code", ["languageName":"Bengali"])): Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:06 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\9.har&#xD;
+&#xD;
+2019-11-09 22:19:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-11-09 22:19:06 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-11-09 22:19:06 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-11-09 22:19:06 - [TEST_STEP][PASSED] - verifyElementText(response, "LanguageISOCodeResponse.LanguageISOCodeResult", "ben"): Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:06 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:06 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-11-09 22:19:06 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:06 - [TEST_STEP][PASSED] - nameResponse = sendRequest(findTestObject("Country API/More Services/Language Name", ["languageCode":languageCode])): Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:07 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\10.har&#xD;
+&#xD;
+2019-11-09 22:19:07 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:07 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Country API/More Services/Language Name", ["languageISO":"eng"])): Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:08 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\11.har&#xD;
+&#xD;
+2019-11-09 22:19:08 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-11-09 22:19:08 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-11-09 22:19:08 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-11-09 22:19:08 - [TEST_STEP][PASSED] - verifyElementText(response, "LanguageNameResponse.LanguageNameResult", "English"): Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:08 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:08 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-11-09 22:19:08 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Data Driven/Country Info API Services" classname="Test Cases/Data Driven/Country Info API Services" status="PASSED">
+            <system-out>2019-11-09 22:19:08 - [TEST_CASE][PASSED] - Test Cases/Data Driven/Country Info API Services: Test Cases/Data Driven/Country Info API Services&#xD;
+&#xD;
+2019-11-09 22:19:08 - [TEST_STEP][PASSED] - flagResponse = sendRequest(findTestObject("Country API/More Services/Country Flag - Data Driven", ["countryISO":countryISO])): Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:09 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\12.har&#xD;
+&#xD;
+2019-11-09 22:19:09 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:09 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Country API/More Services/Country Flag - Data Driven")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:09 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\13.har&#xD;
+&#xD;
+2019-11-09 22:19:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-11-09 22:19:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-11-09 22:19:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-11-09 22:19:10 - [TEST_STEP][PASSED] - verifyElementText(response, "CountryFlagResponse.CountryFlagResult", "http://www.oorsprong.org/WebSamples.CountryInfo/Flags/Bangladesh.jpg"): Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:10 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:10 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-11-09 22:19:10 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:10 - [TEST_STEP][PASSED] - codeResponse = sendRequest(findTestObject("Country API/More Services/Language Code", ["languageName":languageName])): Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:10 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\14.har&#xD;
+&#xD;
+2019-11-09 22:19:11 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:11 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Country API/More Services/Language Code", ["languageName":"Bengali"])): Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:11 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\15.har&#xD;
+&#xD;
+2019-11-09 22:19:11 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-11-09 22:19:11 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-11-09 22:19:11 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-11-09 22:19:11 - [TEST_STEP][PASSED] - verifyElementText(response, "LanguageISOCodeResponse.LanguageISOCodeResult", "ben"): Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:12 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:12 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-11-09 22:19:12 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:12 - [TEST_STEP][PASSED] - nameResponse = sendRequest(findTestObject("Country API/More Services/Language Name", ["languageCode":languageCode])): Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:12 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\16.har&#xD;
+&#xD;
+2019-11-09 22:19:12 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-09 22:19:12 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Country API/More Services/Language Name", ["languageISO":"eng"])): Send request and verify the response successfully&#xD;
+&#xD;
+2019-11-09 22:19:13 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191109_221849\Data Driven\SOAP API Test Suite\20191109_221849\requests\main\17.har&#xD;
+&#xD;
+2019-11-09 22:19:13 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-11-09 22:19:13 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-11-09 22:19:13 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-11-09 22:19:13 - [TEST_STEP][PASSED] - verifyElementText(response, "LanguageNameResponse.LanguageNameResult", "English"): Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:13 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-11-09 22:19:13 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-11-09 22:19:13 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-11-09 22:18:52 - [TEST_SUITE][INCOMPLETE] - SOAP API Test Suite: null</system-out>
+        <system-err>2019-11-09 22:18:52 - [TEST_SUITE][INCOMPLETE] - SOAP API Test Suite: null</system-err>
+    </testsuite>
+</testsuites>

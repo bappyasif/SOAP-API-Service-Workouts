@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Country Info API Services</description>
+   <name>Country Info API Services</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e92350d4-eab3-427e-823e-641d2eb4f950</testCaseGuid>
+   <variable>
+      <defaultValue>'ben'</defaultValue>
+      <description></description>
+      <id>95ca17e8-9cec-43cb-a43a-dfd30a99d16f</id>
+      <masked>false</masked>
+      <name>languageCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bengali'</defaultValue>
+      <description></description>
+      <id>ebc14cc4-1863-4a92-8942-c286b76f9c0d</id>
+      <masked>false</masked>
+      <name>languageName</name>
+   </variable>
+   <variable>
+      <defaultValue>'BD'</defaultValue>
+      <description></description>
+      <id>d8650462-a312-4544-b5e9-33225840f870</id>
+      <masked>false</masked>
+      <name>countryISO</name>
+   </variable>
+</TestCaseEntity>

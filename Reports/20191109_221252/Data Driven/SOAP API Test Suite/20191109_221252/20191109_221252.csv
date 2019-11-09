@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SOAP API Test Suite,,SOAP API Test Suite,,2019-11-09 22:12:54,2019-11-09 22:13:23,28.587s,INCOMPLETE
+,,,,,,,
+Test Cases/Data Driven/Country Info API Services,,Country Info API Services,,2019-11-09 22:12:55,2019-11-09 22:13:07,12.515s,PASSED
+"flagResponse = sendRequest(findTestObject(""Country API/More Services/Country Flag - Data Driven"", [""countryISO"":countryISO]))",,,,2019-11-09 22:12:55,2019-11-09 22:12:59,4.425s,PASSED
+"sendRequestAndVerify(findTestObject(""Country API/More Services/Country Flag - Data Driven""))",,,,2019-11-09 22:12:59,2019-11-09 22:13:01,1.748s,PASSED
+"codeResponse = sendRequest(findTestObject(""Country API/More Services/Language Code"", [""languageName"":languageName]))",,,,2019-11-09 22:13:01,2019-11-09 22:13:02,1.032s,PASSED
+"sendRequestAndVerify(findTestObject(""Country API/More Services/Language Code"", [""languageName"":""Bengali""]))",,,,2019-11-09 22:13:02,2019-11-09 22:13:03,1.097s,PASSED
+"nameResponse = sendRequest(findTestObject(""Country API/More Services/Language Name"", [""languageCode"":languageCode]))",,,,2019-11-09 22:13:03,2019-11-09 22:13:05,2.078s,PASSED
+"sendRequestAndVerify(findTestObject(""Country API/More Services/Language Name"", [""languageISO"":""eng""]))",,,,2019-11-09 22:13:05,2019-11-09 22:13:07,1.857s,PASSED
+,,,,,,,
+Test Cases/Data Driven/Country Info API Services,,Country Info API Services,,2019-11-09 22:13:07,2019-11-09 22:13:15,7.420s,PASSED
+"flagResponse = sendRequest(findTestObject(""Country API/More Services/Country Flag - Data Driven"", [""countryISO"":countryISO]))",,,,2019-11-09 22:13:07,2019-11-09 22:13:08,1.074s,PASSED
+"sendRequestAndVerify(findTestObject(""Country API/More Services/Country Flag - Data Driven""))",,,,2019-11-09 22:13:08,2019-11-09 22:13:10,1.492s,PASSED
+"codeResponse = sendRequest(findTestObject(""Country API/More Services/Language Code"", [""languageName"":languageName]))",,,,2019-11-09 22:13:10,2019-11-09 22:13:11,1.493s,PASSED
+"sendRequestAndVerify(findTestObject(""Country API/More Services/Language Code"", [""languageName"":""Bengali""]))",,,,2019-11-09 22:13:11,2019-11-09 22:13:13,1.265s,PASSED
+"nameResponse = sendRequest(findTestObject(""Country API/More Services/Language Name"", [""languageCode"":languageCode]))",,,,2019-11-09 22:13:13,2019-11-09 22:13:14,0.998s,PASSED
+"sendRequestAndVerify(findTestObject(""Country API/More Services/Language Name"", [""languageISO"":""eng""]))",,,,2019-11-09 22:13:14,2019-11-09 22:13:15,1.084s,PASSED
+,,,,,,,
+Test Cases/Data Driven/Country Info API Services,,Country Info API Services,,2019-11-09 22:13:15,2019-11-09 22:13:23,8.246s,PASSED
+"flagResponse = sendRequest(findTestObject(""Country API/More Services/Country Flag - Data Driven"", [""countryISO"":countryISO]))",,,,2019-11-09 22:13:15,2019-11-09 22:13:16,0.967s,PASSED
+"sendRequestAndVerify(findTestObject(""Country API/More Services/Country Flag - Data Driven""))",,,,2019-11-09 22:13:16,2019-11-09 22:13:18,1.876s,PASSED
+"codeResponse = sendRequest(findTestObject(""Country API/More Services/Language Code"", [""languageName"":languageName]))",,,,2019-11-09 22:13:18,2019-11-09 22:13:19,1.422s,PASSED
+"sendRequestAndVerify(findTestObject(""Country API/More Services/Language Code"", [""languageName"":""Bengali""]))",,,,2019-11-09 22:13:19,2019-11-09 22:13:20,1.295s,PASSED
+"nameResponse = sendRequest(findTestObject(""Country API/More Services/Language Name"", [""languageCode"":languageCode]))",,,,2019-11-09 22:13:20,2019-11-09 22:13:21,0.989s,PASSED
+"sendRequestAndVerify(findTestObject(""Country API/More Services/Language Name"", [""languageISO"":""eng""]))",,,,2019-11-09 22:13:21,2019-11-09 22:13:23,1.687s,PASSED
