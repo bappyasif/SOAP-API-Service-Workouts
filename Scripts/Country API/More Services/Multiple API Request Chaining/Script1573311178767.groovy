@@ -23,12 +23,10 @@ def extractedLanguageISOCode = languageCodesGeneratedContent.ListOfLanguagesByCo
 
 println(extractedLanguageISOCode)
 
-println (languageCode)
-
+//println(languageCode)
 languageCode = extractedLanguageISOCode
 
 //GlobalVariable.countryLanguageISOCOde = extractedLanguageISOCode
-
 GlobalVariable.countryLanguageISOCOde = languageCode
 
 codeResponse = WS.sendRequest(findTestObject('Country API/More Services/Language Name', [('languageISO') : GlobalVariable.countryLanguageISOCOde]))
@@ -39,12 +37,11 @@ def codeResultGeneratedContent = new XmlSlurper().parseText(codeResultingXMLResp
 
 println(codeResultGeneratedContent)
 
-println (lanaguageName)
+println(lanaguageName)
 
 lanaguageName = codeResultGeneratedContent
 
 //nameResponse = WS.sendRequest(findTestObject('Country API/More Services/Language Code', [('languageName') : codeResultGeneratedContent]))
-
 nameResponse = WS.sendRequest(findTestObject('Country API/More Services/Language Code', [('languageName') : lanaguageName]))
 
 String nameResultingXMLResponse = nameResponse.responseBodyContent
@@ -56,4 +53,18 @@ println(nameResultGeneratedContent)
 assert nameResultGeneratedContent == languageCode
 
 WS.sendRequestAndVerify(findTestObject('Country API/More Services/List Of Language Codes'))
+
+nestedCodeAPIResponse = WS.sendRequest(findTestObject('Country API/More Services/Language Name', [('languageISO') : nameResultGeneratedContent]))
+
+String nestedCodeXMLResponse = nestedCodeAPIResponse.responseBodyContent
+
+def nestedCodeGenratedContent = new XmlSlurper().parseText(nestedCodeXMLResponse)
+
+println(nestedCodeGenratedContent)
+
+WS.sendRequestAndVerify(findTestObject('Country API/More Services/Language Code', [('languageName') : 'Bengali']))
+
+WS.sendRequestAndVerify(findTestObject('Country API/More Services/Language Name', [('languageISO') : 'eng']))
+
+assert codeResultGeneratedContent == nestedCodeGenratedContent
 
