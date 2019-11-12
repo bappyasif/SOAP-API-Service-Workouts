@@ -1,0 +1,105 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 29,
+        "name": "",
+        "description": "",
+        "id": "language-informations;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2361830387,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Language Code Is Provided ben",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ben",
+                  "offset": 26
+                }
+              ],
+              "location": "cucumberExample.gemnrateCountryLanguageCode(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 825829101,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Generate Country Language Name Bengali",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bengali",
+                  "offset": 31
+                }
+              ],
+              "location": "cucumberExample.gatherCountryLanguageName(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "",
+        "description": "",
+        "id": "language-informations;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1410004161,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Language Code Is Provided bem",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bem",
+                  "offset": 26
+                }
+              ],
+              "location": "cucumberExample.gemnrateCountryLanguageCode(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1299592832,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Generate Country Language Name Bembi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bembi",
+                  "offset": 31
+                }
+              ],
+              "location": "cucumberExample.gatherCountryLanguageName(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Language Informations",
+    "description": "",
+    "id": "language-informations",
+    "keyword": "Feature",
+    "uri": "G:/Katalon Studio/Katalon Workspace/SOAP API Service Workouts/Include/features/Custom.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cucumber Runner Test Suite,,Cucumber Runner Test Suite,,2019-11-12 22:05:30,2019-11-12 22:05:46,16.584s,INCOMPLETE
+,,,,,,,
+Test Cases/Feature Cucumber/Environment Check Test Case,,Environment Check Test Case,,2019-11-12 22:05:30,2019-11-12 22:05:46,16.189s,INCOMPLETE
+Start listener action : sampleBeforeTestCase,,,,2019-11-12 22:05:30,2019-11-12 22:05:30,0.013s,PASSED
+"runFeatureFile(""Include/features/Custom.feature"")",,,,2019-11-12 22:05:31,2019-11-12 22:05:46,15.799s,PASSED
+Start listener action : sampleAfterTestSuite,,,,2019-11-12 22:05:46,2019-11-12 22:05:46,0.001s,PASSED
+Start listener action : exportKatalonReports,,,,2019-11-12 22:05:46,2019-11-12 22:05:46,0.000s,INCOMPLETE

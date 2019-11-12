@@ -51,18 +51,22 @@ class cucumberExample {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given('Language Code Is Provided <languageCode>')
+	@Given('Language Code Is Provided (.*)')
 	def gemnrateCountryLanguageCode(String languageCode) {
-		println languageCode
+		println (languageCode)
+		WS.sendRequest(findTestObject('Country API/More Services/Language Name', [('languageISO') : languageCode]))
 	}
 
-	@When("Status Code Is  <statusCode>")
+	@When("Status Code Is  (.*)")
 	def checkGeneratedStatusCode(int statusCode) {
-		println statusCode
+		statusCode = WS.sendRequest(findTestObject('Country API/More Services/List Of Language Codes'))
+		println (statusCode)
+		
 	}
 
-	@Then("Generate Country Language Name <languageName>")
+	@Then("Generate Country Language Name (.*)")
 	def gatherCountryLanguageName(String languageName) {
-		println languageName
+		println (languageName)
+		WS.sendRequest(findTestObject('Country API/More Services/Language Code', [('languageName') : languageName]))
 	}
 }

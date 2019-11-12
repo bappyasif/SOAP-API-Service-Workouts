@@ -16,18 +16,16 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@Headline
+	
 Feature: Language Informations
-  I want to use this template for my feature file
 
-  @Steps
-  Scenario Outline: 
-    Given Language Code Is Provided <languageCode>
-    When Status Code Is  <statusCode>
-    Then Generate Country Language Name <languageName>
+Scenario Outline: 
+Given Language Code Is Provided <languageCode>
 
-    Examples: 
-      | languageCode | languageName | statusCode |
+Then Generate Country Language Name <languageName>
+
+Examples:
+			| languageCode | languageName | statusCode |
       | ben          | Bengali      |        200 |
       | bem          | Bembi        |        201 |
     

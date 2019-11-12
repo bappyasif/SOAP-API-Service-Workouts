@@ -12,14 +12,14 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import java.lang.String as String
+import java.lang.StringCoding as StringCoding
+import cucumberIntegration.cucumberRunner as cucumberRunner
+import cucumber.api.junit.Cucumber as Cucumber
 
-WS.sendRequest(findTestObject('Country API/More Services/Language Code', [('languageName') : 'Bengali']))
+CucumberKW.runFeatureFile('Include/features/Custom.feature')
+CucumberKW.runFeatureFolder('Include/features')
 
-WS.sendRequest(findTestObject('Country API/More Services/Language Name', [('languageISO') : 'eng']))
-
-CucumberKW.runFeatureFile('')
-
-CucumberKW.runWithCucumberRunner('')
-
-CucumberKW.runFeatureFolder('')
+CucumberKW.runWithCucumberRunner(cucumberRunner.class)
+//CucumberKW.runWithCucumberRunner(cucumberRunner.__$stMC)
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="3.584447">
+<testcase classname="Language Informations" name="_2" time="1.837249">
+<system-out><![CDATA[Given Language Code Is Provided ben.........................................passed
+Then Generate Country Language Name Bengali.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Language Informations" name="_3" time="1.747198">
+<system-out><![CDATA[Given Language Code Is Provided bem.........................................passed
+Then Generate Country Language Name Bembi...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
