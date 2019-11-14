@@ -1023,4 +1023,115 @@
   <message>End Test Suite : Test Suites/BDD Feature/Cucumber Runner Test Suite</message>
   <nestedLevel>0</nestedLevel>
 </record>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-11-13T20:57:11</date>
+  <millis>1573657031634</millis>
+  <sequence>178</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>253</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har3918060262714058183\\requests\\ModalContext\\0.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">567caeb8-7a80-4a33-97db-8d60b386e552</property>
+</record>
+<record>
+  <date>2019-11-13T20:58:57</date>
+  <millis>1573657137241</millis>
+  <sequence>179</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>260</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har2388395414726009240\\requests\\ModalContext\\1.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">1f228068-9d8f-4018-8425-d341a326314e</property>
+</record>
+<record>
+  <date>2019-11-13T21:00:18</date>
+  <millis>1573657218081</millis>
+  <sequence>180</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har956091999076895176\\requests\\ModalContext\\2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">55009adc-a9b2-4262-b3be-132fcd9b6ad6</property>
+</record>
+<record>
+  <date>2019-11-13T21:01:07</date>
+  <millis>1573657267127</millis>
+  <sequence>181</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>272</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har871993512844464608\\requests\\ModalContext\\3.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">9567165a-5e7b-4721-baa6-b087fcdc398e</property>
+</record>
+<record>
+  <date>2019-11-13T21:02:54</date>
+  <millis>1573657374292</millis>
+  <sequence>182</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>287</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har3859538125049202658\\requests\\ModalContext\\4.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">ec2e283a-3e7c-4854-bf75-8862cfcd1b91</property>
+</record>
+<record>
+  <date>2019-11-13T21:03:08</date>
+  <millis>1573657388950</millis>
+  <sequence>183</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>292</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har1495581387938260195\\requests\\ModalContext\\5.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">adcb84da-6a1a-4b31-b53a-05897cacc2cb</property>
+</record>
+<record>
+  <date>2019-11-13T21:03:23</date>
+  <millis>1573657403370</millis>
+  <sequence>184</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>297</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har5613197404853950394\\requests\\ModalContext\\6.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">b50530b6-fd0b-4236-b24d-a3940eb072ed</property>
+</record>
+<record>
+  <date>2019-11-13T21:03:38</date>
+  <millis>1573657418680</millis>
+  <sequence>185</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>302</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har2463765475300817018\\requests\\ModalContext\\7.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">94baffd6-8451-4994-b964-3b03e3aea540</property>
+</record>
+<record>
+  <date>2019-11-13T21:04:01</date>
+  <millis>1573657441825</millis>
+  <sequence>186</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>307</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har3550948127540081953\\requests\\ModalContext\\8.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">a0e8972f-2fb2-4b73-93a9-430e6d2d50a6</property>
+</record>
 </log>

@@ -17,8 +17,8 @@ import java.lang.StringCoding as StringCoding
 import cucumberIntegration.cucumberRunner as cucumberRunner
 import cucumber.api.junit.Cucumber as Cucumber
 
-CucumberKW.runFeatureFile('Include/features/Custom.feature')
-CucumberKW.runFeatureFolder('Include/features')
+CucumberKW.runFeatureFile('Include/features/CountryInfo/Custom.feature')
+CucumberKW.runFeatureFolder('Include/features/CountryInfo')
 
 CucumberKW.runWithCucumberRunner(cucumberRunner.class)
 //CucumberKW.runWithCucumberRunner(cucumberRunner.__$stMC)

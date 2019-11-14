@@ -29,4 +29,14 @@
       <initValue>'Ben'</initValue>
       <name>countryLanguageISOCOde</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>First_Number</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>7</initValue>
+      <name>Second_Number</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

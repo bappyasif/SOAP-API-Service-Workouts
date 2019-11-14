@@ -1,0 +1,106 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 30,
+        "name": "ADD, DEVIDE, MULTIPLY, SUBTRACT",
+        "description": "",
+        "id": "calculating-couple-of-numbers.;add--devide--multiply--subtract;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 399856,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "There Are Two Numbers",
+            "match": {
+              "location": "calculatingNumbers.I_check_for_the_value_in_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5148890966,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Lets Print Requests Results",
+            "match": {
+              "location": "calculatingNumbers.printingResults()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "ADD, DEVIDE, MULTIPLY, SUBTRACT",
+        "description": "",
+        "id": "calculating-couple-of-numbers.;add--devide--multiply--subtract;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 863433,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "There Are Two Numbers",
+            "match": {
+              "location": "calculatingNumbers.I_check_for_the_value_in_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3098786234,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Lets Print Requests Results",
+            "match": {
+              "location": "calculatingNumbers.printingResults()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Calculating Couple Of Numbers.",
+    "description": "",
+    "id": "calculating-couple-of-numbers.",
+    "keyword": "Feature",
+    "uri": "Include/features/Calculator API/Calculating.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

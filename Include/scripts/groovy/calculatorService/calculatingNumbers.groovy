@@ -1,4 +1,4 @@
-package cucumberIntegration
+package calculatorService
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -47,25 +47,40 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-class cucumberExample {
+class calculatingNumbers {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given('Language Code Is Provided (.*)')
-	def gemnrateCountryLanguageCode(String languageCode) {
-		println (languageCode)
-		WS.sendRequest(findTestObject('Country API/More Services/Language Name', [('languageISO') : languageCode]))
+	@Given("There Are Two Numbers")
+	def I_check_for_the_value_in_step() {
+		println ("Within Given");
+		//String addResponse = WS.sendRequest(findTestObject('Calculator API/Add Numbers'));
+		
 	}
 
-	@When("Status Code Is  (.*)")
-	def checkGeneratedStatusCode(int statusCode) {
-		statusCode = WS.sendRequest(findTestObject('Country API/More Services/List Of Language Codes'))
-		println (statusCode)
+	@Then("Lets Print Requests Results")
+	def printingResults() {
+
+		String addResponse = WS.sendRequest(findTestObject('Calculator API/Add Numbers'));
+
+		println (addResponse);
+
+		String devideResponse = WS.sendRequest(findTestObject('Calculator API/Devide Numbers'));
+
+		println (devideResponse);
+
+		String multiplyResponse = WS.sendRequest(findTestObject('Calculator API/Multiply Numbers'));
+
+		println (multiplyResponse);
+
+		String subtractResponse = WS.sendRequest(findTestObject('Calculator API/Subtract Numbers'));
+
+		println (subtractResponse);
 	}
 
-	@Then("Generate Country Language Name (.*)")
-	def gatherCountryLanguageName(String languageName) {
-		println (languageName)
-		WS.sendRequest(findTestObject('Country API/More Services/Language Code', [('languageName') : languageName]))
+	@When("Namely (.*) And (.*) Also I check for the Values That Are Non Zeros")
+	def chekingNumbers(int a, int b) {
+
+		println (a, b);
 	}
 }

@@ -1,20 +1,30 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Include/features/Custom.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Include/features/Calculator API/Calculating.feature");
 formatter.feature({
-  "name": "Language Informations",
+  "name": "Calculating Couple Of Numbers.",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@tag"
+    }
+  ]
 });
 formatter.scenarioOutline({
-  "name": "",
+  "name": "ADD, DEVIDE, MULTIPLY, SUBTRACT",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@tag2"
+    }
+  ]
 });
 formatter.step({
-  "name": "Language Code Is Provided \u003clanguageCode\u003e",
+  "name": "There Are Two Numbers",
   "keyword": "Given "
 });
 formatter.step({
-  "name": "Generate Country Language Name \u003clanguageName\u003e",
+  "name": "Lets Print Requests Results",
   "keyword": "Then "
 });
 formatter.examples({
@@ -24,73 +34,89 @@ formatter.examples({
   "rows": [
     {
       "cells": [
-        "languageCode",
-        "languageName",
-        "statusCode"
+        "first_number",
+        "second_number",
+        "Result"
       ]
     },
     {
       "cells": [
-        "ben",
-        "Bengali",
-        "200"
+        "5",
+        "7",
+        "success"
       ]
     },
     {
       "cells": [
-        "bem",
-        "Bembi",
-        "201"
+        "7",
+        "9",
+        "Fail"
       ]
     }
   ]
 });
 formatter.scenario({
-  "name": "",
+  "name": "ADD, DEVIDE, MULTIPLY, SUBTRACT",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@tag"
+    },
+    {
+      "name": "@tag2"
+    }
+  ]
 });
 formatter.step({
-  "name": "Language Code Is Provided ben",
+  "name": "There Are Two Numbers",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "cucumberExample.gemnrateCountryLanguageCode(String)"
+  "location": "calculatingNumbers.I_check_for_the_value_in_step()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Generate Country Language Name Bengali",
+  "name": "Lets Print Requests Results",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "cucumberExample.gatherCountryLanguageName(String)"
+  "location": "calculatingNumbers.printingResults()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "",
+  "name": "ADD, DEVIDE, MULTIPLY, SUBTRACT",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@tag"
+    },
+    {
+      "name": "@tag2"
+    }
+  ]
 });
 formatter.step({
-  "name": "Language Code Is Provided bem",
+  "name": "There Are Two Numbers",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "cucumberExample.gemnrateCountryLanguageCode(String)"
+  "location": "calculatingNumbers.I_check_for_the_value_in_step()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Generate Country Language Name Bembi",
+  "name": "Lets Print Requests Results",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "cucumberExample.gatherCountryLanguageName(String)"
+  "location": "calculatingNumbers.printingResults()"
 });
 formatter.result({
   "status": "passed"

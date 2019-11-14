@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1667847843,
+              "duration": 1522947883,
               "status": "passed"
             },
             "line": 23,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 1050169629,
+              "duration": 1680635253,
               "status": "passed"
             },
             "line": 25,
@@ -58,7 +58,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1009067089,
+              "duration": 1861556607,
               "status": "passed"
             },
             "line": 23,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 1116011867,
+              "duration": 2141004610,
               "status": "passed"
             },
             "line": 25,
@@ -99,7 +99,7 @@
     "description": "",
     "id": "language-informations",
     "keyword": "Feature",
-    "uri": "Include/features/Custom.feature",
+    "uri": "Include/features/CountryInfo/Custom.feature",
     "tags": []
   }
 ]

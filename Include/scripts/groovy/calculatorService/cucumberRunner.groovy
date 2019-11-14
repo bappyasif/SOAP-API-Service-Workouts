@@ -1,13 +1,9 @@
-package cucumberIntegration
+package calculatorService
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import org.junit.runner.RunWith
-import cucumber.api.CucumberOptions
-import cucumber.api.junit.Cucumber
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
@@ -21,8 +17,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
+import cucumber.api.junit.Cucumber
+import cucumber.api.CucumberOptions
+import org.junit.runner.RunWith
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="Include/features/CountryInfo/Custom.feature", glue="", plugin=["pretty", "html:ReportsFolder", "json:ReportsFolder/cucmberReport.json"])
+@CucumberOptions(features="Include/features/Calculator API/Calculating.feature", glue="", plugin=["pretty", "html:ReportsFolder", "json:ReportsFolder/calculatorResults.json"])
 public class cucumberRunner {
 }
