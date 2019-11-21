@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="5.659899">
+<testcase classname="Calculating Couple Of Numbers." name="ADD, DEVIDE, MULTIPLY, SUBTRACT" time="3.115922">
+<system-out><![CDATA[Given There Are Two Numbers.................................................passed
+Then Lets Print Requests Results............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Calculating Couple Of Numbers." name="ADD, DEVIDE, MULTIPLY, SUBTRACT 2" time="2.543977">
+<system-out><![CDATA[Given There Are Two Numbers.................................................passed
+Then Lets Print Requests Results............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

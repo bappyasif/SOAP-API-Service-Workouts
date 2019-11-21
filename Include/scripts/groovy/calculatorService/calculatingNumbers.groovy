@@ -55,7 +55,7 @@ class calculatingNumbers {
 	def I_check_for_the_value_in_step() {
 		println ("Within Given");
 		//String addResponse = WS.sendRequest(findTestObject('Calculator API/Add Numbers'));
-		
+
 	}
 
 	@Then("Lets Print Requests Results")
@@ -78,9 +78,13 @@ class calculatingNumbers {
 		println (subtractResponse);
 	}
 
-	@When("Namely (.*) And (.*) Also I check for the Values That Are Non Zeros")
+	
+	//@When("Namely {int} And {int}")
+	@When("Namely (\\d+) And (\\d+)")
 	def chekingNumbers(int a, int b) {
 
-		println (a, b);
+		//println (a, b);
+		println a;
+		println b;
 	}
 }

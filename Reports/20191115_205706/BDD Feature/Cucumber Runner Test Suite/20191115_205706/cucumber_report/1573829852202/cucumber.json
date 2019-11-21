@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 495224,
+              "duration": 262579,
               "status": "passed"
             },
             "line": 24,
@@ -24,29 +24,7 @@
           },
           {
             "result": {
-              "duration": 359230,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "Namely 5 And 7",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5",
-                  "offset": 7
-                },
-                {
-                  "val": "7",
-                  "offset": 13
-                }
-              ],
-              "location": "calculatingNumbers.chekingNumbers(int,int)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3055217044,
+              "duration": 3057051535,
               "status": "passed"
             },
             "line": 26,
@@ -76,7 +54,7 @@
         "steps": [
           {
             "result": {
-              "duration": 431075,
+              "duration": 717602,
               "status": "passed"
             },
             "line": 24,
@@ -88,29 +66,7 @@
           },
           {
             "result": {
-              "duration": 465288,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "Namely 7 And 9",
-            "match": {
-              "arguments": [
-                {
-                  "val": "7",
-                  "offset": 7
-                },
-                {
-                  "val": "9",
-                  "offset": 13
-                }
-              ],
-              "location": "calculatingNumbers.chekingNumbers(int,int)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3031197826,
+              "duration": 2540723726,
               "status": "passed"
             },
             "line": 26,
@@ -135,7 +91,7 @@
     "description": "",
     "id": "calculating-couple-of-numbers.",
     "keyword": "Feature",
-    "uri": "Include/features/Calculator API/Calculating.feature",
+    "uri": "G:/Katalon Studio/Katalon Workspace/SOAP API Service Workouts/Include/features/Calculator API/Calculating.feature",
     "tags": [
       {
         "name": "@tag",

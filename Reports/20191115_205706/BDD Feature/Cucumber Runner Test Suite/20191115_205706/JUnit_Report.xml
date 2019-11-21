@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Cucumber Runner Test Suite" time="13" tests="0" failures="0" errors="0">
+    <testsuite name="Cucumber Runner Test Suite" tests="0" failures="0" errors="0" time="13" timestamp="2019-11-15 20:57:11" hostname="BaPpY - 192.168.0.108" id="Test Suites/BDD Feature/Cucumber Runner Test Suite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="G:\\Katalon Studio\\Katalon Workspace\\SOAP API Service Workouts\\Reports\\20191115_205706\\BDD Feature\\Cucumber Runner Test Suite\\20191115_205706"/>
+            <property name="logFiles" value="G:\\Katalon Studio\\Katalon Workspace\\SOAP API Service Workouts\\Reports\\20191115_205706\\BDD Feature\\Cucumber Runner Test Suite\\20191115_205706\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="BaPpY - 192.168.0.108"/>
+            <property name="hostAddress" value="192.168.0.108"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/Feature Cucumber/Environment Check Test Case" classname="Test Cases/Feature Cucumber/Environment Check Test Case" status="INCOMPLETE">
+            <system-out>2019-11-15 20:57:11 - [TEST_CASE][INCOMPLETE] - Test Cases/Feature Cucumber/Environment Check Test Case: null&#xD;
+&#xD;
+2019-11-15 20:57:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-11-15 20:57:11 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null&#xD;
+&#xD;
+2019-11-15 20:57:11 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null&#xD;
+&#xD;
+2019-11-15 20:57:12 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/CountryInfo/Custom.feature"): null&#xD;
+&#xD;
+2019-11-15 20:57:12 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/CountryInfo/Custom.feature' and extract report to folder: 'G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706/cucumber_report/1573829832219'...&#xD;
+&#xD;
+2019-11-15 20:57:12 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO : SCENARIO &#xD;
+&#xD;
+2019-11-15 20:57:12 - [TEST_STEP][PASSED] - Language Code Is Provided ben: Language Code Is Provided ben&#xD;
+&#xD;
+2019-11-15 20:57:15 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\0.har&#xD;
+&#xD;
+2019-11-15 20:57:15 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:15 - [MESSAGE][PASSED] - Language Code Is Provided ben&#xD;
+&#xD;
+2019-11-15 20:57:15 - [TEST_STEP][PASSED] - Generate Country Language Name Bengali: Generate Country Language Name Bengali&#xD;
+&#xD;
+2019-11-15 20:57:16 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\1.har&#xD;
+&#xD;
+2019-11-15 20:57:16 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:16 - [MESSAGE][PASSED] - Generate Country Language Name Bengali&#xD;
+&#xD;
+2019-11-15 20:57:16 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO : SCENARIO &#xD;
+&#xD;
+2019-11-15 20:57:16 - [TEST_STEP][PASSED] - Language Code Is Provided bem: Language Code Is Provided bem&#xD;
+&#xD;
+2019-11-15 20:57:17 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\2.har&#xD;
+&#xD;
+2019-11-15 20:57:17 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:17 - [MESSAGE][PASSED] - Language Code Is Provided bem&#xD;
+&#xD;
+2019-11-15 20:57:17 - [TEST_STEP][PASSED] - Generate Country Language Name Bembi: Generate Country Language Name Bembi&#xD;
+&#xD;
+2019-11-15 20:57:18 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\3.har&#xD;
+&#xD;
+2019-11-15 20:57:18 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:18 - [MESSAGE][PASSED] - Generate Country Language Name Bembi&#xD;
+&#xD;
+2019-11-15 20:57:18 - [MESSAGE][PASSED] - Feature file: 'Include/features/CountryInfo/Custom.feature' was passed&#xD;
+&#xD;
+2019-11-15 20:57:18 - [TEST_STEP][PASSED] - runFeatureFolder("Include/features/CountryInfo"): All feature files in 'Include/features/CountryInfo' were passed&#xD;
+&#xD;
+2019-11-15 20:57:18 - [MESSAGE][INFO] - Starting run keyword runFeatureFolder: 'Include/features/CountryInfo' and extract report to folder: 'G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706/cucumber_report/1573829838458'...&#xD;
+&#xD;
+2019-11-15 20:57:19 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\4.har&#xD;
+&#xD;
+2019-11-15 20:57:19 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:19 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\5.har&#xD;
+&#xD;
+2019-11-15 20:57:19 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:20 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\6.har&#xD;
+&#xD;
+2019-11-15 20:57:20 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:21 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\7.har&#xD;
+&#xD;
+2019-11-15 20:57:21 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:21 - [MESSAGE][PASSED] - All feature files in 'Include/features/CountryInfo' were passed&#xD;
+&#xD;
+2019-11-15 20:57:21 - [TEST_STEP][PASSED] - runWithCucumberRunner(cucumberIntegration.cucumberRunner): Run with 'cucumberIntegration.cucumberRunner' was passed&#xD;
+&#xD;
+2019-11-15 20:57:22 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\8.har&#xD;
+&#xD;
+2019-11-15 20:57:22 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:23 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\9.har&#xD;
+&#xD;
+2019-11-15 20:57:23 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:23 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\10.har&#xD;
+&#xD;
+2019-11-15 20:57:23 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:24 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Service Workouts\Reports\20191115_205706\BDD Feature\Cucumber Runner Test Suite\20191115_205706\requests\main\11.har&#xD;
+&#xD;
+2019-11-15 20:57:24 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-11-15 20:57:24 - [MESSAGE][PASSED] - Run with 'cucumberIntegration.cucumberRunner' was passed&#xD;
+&#xD;
+2019-11-15 20:57:24 - [MESSAGE][PASSED] - Test Cases/Feature Cucumber/Environment Check Test Case&#xD;
+&#xD;
+2019-11-15 20:57:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null&#xD;
+&#xD;
+2019-11-15 20:57:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null&#xD;
+&#xD;
+2019-11-15 20:57:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null</system-out>
+            <system-err>2019-11-15 20:57:11 - [TEST_CASE][INCOMPLETE] - Test Cases/Feature Cucumber/Environment Check Test Case: null</system-err>
+        </testcase>
+        <system-out>2019-11-15 20:57:11 - [TEST_SUITE][INCOMPLETE] - Cucumber Runner Test Suite: null</system-out>
+        <system-err>2019-11-15 20:57:11 - [TEST_SUITE][INCOMPLETE] - Cucumber Runner Test Suite: null</system-err>
+    </testsuite>
+</testsuites>

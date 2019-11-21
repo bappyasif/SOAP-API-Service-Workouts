@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 706700731,
+              "duration": 3014692462,
               "status": "passed"
             },
             "line": 23,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 730764790,
+              "duration": 884757234,
               "status": "passed"
             },
             "line": 25,
@@ -58,7 +58,7 @@
         "steps": [
           {
             "result": {
-              "duration": 728874133,
+              "duration": 739705740,
               "status": "passed"
             },
             "line": 23,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 708608065,
+              "duration": 720895831,
               "status": "passed"
             },
             "line": 25,
@@ -99,7 +99,7 @@
     "description": "",
     "id": "language-informations",
     "keyword": "Feature",
-    "uri": "Include/features/CountryInfo/Custom.feature",
+    "uri": "G:/Katalon Studio/Katalon Workspace/SOAP API Service Workouts/Include/features/CountryInfo/Custom.feature",
     "tags": []
   }
 ]

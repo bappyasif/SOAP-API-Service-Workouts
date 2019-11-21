@@ -22,7 +22,7 @@ Feature: Calculating Couple Of Numbers.
   @tag2
   Scenario Outline: ADD, DEVIDE, MULTIPLY, SUBTRACT
     Given There Are Two Numbers
-     
+    When Namely <first_number> And <second_number>
     Then Lets Print Requests Results
 
     Examples: 

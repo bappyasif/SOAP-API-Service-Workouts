@@ -16,4 +16,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Feature Cucumber/Environment Check Test Case</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c71578af-2d0c-4e17-b7bd-64e59c64abea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Feature Cucumber/Calculating Numbers Test Case</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
